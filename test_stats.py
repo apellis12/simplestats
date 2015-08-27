@@ -19,3 +19,5 @@ def test_neg_mean():
 	#assert(mean([-2,2,4]) == 1.333)
 	assert_almost_equal(mean([-2.0,2.0,4.0]), 1.333, places=3)
 #test_neg_mean()
+
+
